@@ -7,7 +7,8 @@ curl "http://localhost:4741/questions" \
   --data '{
     "question": {
       "question": "'"${QUESTION}"'",
-      "answer": "'"${ANSWER}"'"
+      "answer": "'"${ANSWER}"'",
+      "situation_id": "'"${SITUATION_ID}"'"
     }
   }'
 

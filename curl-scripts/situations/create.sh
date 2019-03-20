@@ -6,8 +6,7 @@ curl "http://localhost:4741/situations" \
   --header "Content-Type: application/json" \
   --data '{
     "situation": {
-      "name": "'"${NAME}"'",
-      "question": "'"${QUESTION}"'"
+      "name": "'"${NAME}"'"
     }
   }'
 
