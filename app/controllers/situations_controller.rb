@@ -1,5 +1,5 @@
 class SituationsController < ApplicationController
-  before_action :set_situation, only: [:show, :update, :destroy]
+  before_action :set_situation, only: %i[show update destroy]
 
   # GET /situations
   def index

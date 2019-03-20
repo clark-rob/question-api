@@ -1,3 +1,3 @@
 class SituationSerializer < ActiveModel::Serializer
-  attributes :id, :name, :question
+  attributes :id, :name, :questions
 end
